@@ -67,3 +67,33 @@ Git 和 SVN
   - 劣势:
     - 没有很好的分支管理
     - 不适用于开源
+
+### Git和Github的使用
+
+终端常用命令:
+
+* ls  查询当前目录文件
+  * -a 所有全部，包括隐藏文件 
+  * -l 详情，包含文件大小，文件权限，文件所属用户
+* cd 切换目录
+  * 相对路径  例：Image/
+  * 绝对路径  例：/User/QCL/Desktop/Git/Image
+  * ..  上级目录
+  * ~ 家目录(小房子)
+  * /  Root目录
+* pwd 当前目录查询, 显示完整目录
+* touch 创建文件
+* rm 删除文件/文件夹
+  * -r
+  * -f
+* mkdir 创建文件夹
+
+Git常用命令:
+
+克隆版本库: git clone https://github.com/用户名/仓库名.git
+
+添加修改: git add .
+
+提交修改: git commit -m '修改的内容'
+
+推送修改: git push
