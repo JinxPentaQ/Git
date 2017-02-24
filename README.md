@@ -87,6 +87,11 @@ Git 和 SVN
   * -r
   * -f
 * mkdir 创建文件夹
+* rmdir 删除文件夹
+* file 显示文件类型
+* mv 改变文件名或所在目录
+* cat 显示或连接文件
+* diff 比较并显示两个文件的差异
 
 Git常用命令:
 
@@ -152,3 +157,14 @@ Git 讲解
     node_modules/
 
 则该文件夹下所有文件／文件夹都会被.git忽略
+=======
+
+查看当前状态 ：git status
+
+查看所有分支：git branch -a 
+
+删除文件：git rm
+
+查看版本：git tag
+
+查看远程分支：git branch -r
