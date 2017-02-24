@@ -1,4 +1,4 @@
-# Git
+#Git
 
 - 什么是Git
 - 什么是GitHub
@@ -6,7 +6,7 @@
 - 分布式和集中式 Git   SVN
 - Git和Github的使用
 
-### 什么是Git
+###什么是Git
 
 分布式版本控制工具
 
@@ -97,3 +97,58 @@ Git常用命令:
 提交修改: git commit -m '修改的内容'
 
 推送修改: git push
+Git 讲解
+
+    git clone
+
+    git add .
+
+    git commit -m''
+
+    git pull
+
+    git push
+​    
+
+
+将修改添加到暂存区
+
+
+    git add .
+
+将修改从暂存区移除
+
+    git rm --cache<file> 
+
+查询git状态
+
+    git status
+
+查询当前某文件与分支或暂存区中有何不用
+
+    git diff HEAD -- <file>
+#### 忽略特殊文件或文件夹
+
+需要生成.gitignore文件，一般来说不需要自己创建
+
+通过Gitignore地址去下载对应语言的.gitignore文件
+
+> 使用node.js开发 则去下载Node.gitignore文件。
+
+使用时，需要将Node.gitigonre改名为.gitignre
+
+才会生效
+
+#### .gitignore
+
+
+
+在该文件中添加忽略规则，可以填入文件名／文件夹名
+
+例：
+
+在.gitignore中添加如下代码
+
+    node_modules/
+
+则该文件夹下所有文件／文件夹都会被.git忽略
